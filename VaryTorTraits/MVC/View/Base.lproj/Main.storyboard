@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JpW-wM-xih">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8gW-q3-VoB">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="JpW-wM-xih" customClass="ViewController" customModule="VaryTorTraits" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u1Z-Ai-XjG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MZo-Cy-irS">
+                                <rect key="frame" x="0.0" y="586" width="414" height="150"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="PpH-IY-aJL"/>
+                                    <constraint firstAttribute="height" constant="150" id="ZEp-SO-Ctd"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="PpH-IY-aJL"/>
+                                        <exclude reference="ZEp-SO-Ctd"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ZEp-SO-Ctd"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="PpH-IY-aJL"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MZo-Cy-irS" firstAttribute="trailing" secondItem="Bj4-fc-h0s" secondAttribute="trailing" id="BqG-er-akU"/>
+                            <constraint firstItem="MZo-Cy-irS" firstAttribute="trailing" secondItem="Bj4-fc-h0s" secondAttribute="trailing" id="Jrc-pd-S9P"/>
+                            <constraint firstItem="MZo-Cy-irS" firstAttribute="top" secondItem="u1Z-Ai-XjG" secondAttribute="top" id="LJr-zY-5d3"/>
+                            <constraint firstItem="MZo-Cy-irS" firstAttribute="leading" secondItem="Bj4-fc-h0s" secondAttribute="leading" id="cAN-DR-inH"/>
+                            <constraint firstItem="MZo-Cy-irS" firstAttribute="leading" secondItem="Bj4-fc-h0s" secondAttribute="leading" id="ceN-l2-yaf"/>
+                            <constraint firstItem="MZo-Cy-irS" firstAttribute="bottom" secondItem="Bj4-fc-h0s" secondAttribute="bottom" id="rEc-po-PPo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bj4-fc-h0s"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="BqG-er-akU"/>
+                                <exclude reference="Jrc-pd-S9P"/>
+                                <exclude reference="LJr-zY-5d3"/>
+                                <exclude reference="cAN-DR-inH"/>
+                                <exclude reference="ceN-l2-yaf"/>
+                                <exclude reference="rEc-po-PPo"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="BqG-er-akU"/>
+                                <include reference="ceN-l2-yaf"/>
+                                <include reference="rEc-po-PPo"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="Jrc-pd-S9P"/>
+                                <include reference="LJr-zY-5d3"/>
+                                <include reference="cAN-DR-inH"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OHe-Bv-npl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4717.391304347826" y="861.68478260869574"/>
+        </scene>
+    </scenes>
+</document>
