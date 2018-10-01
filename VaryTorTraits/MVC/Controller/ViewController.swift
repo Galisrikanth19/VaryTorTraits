@@ -33,3 +33,30 @@ class ViewController: UIViewController {
     }
     
 }
+
+
+
+
+/*
+/////////////////////////////////////////////////////////////
+////////////////////Pragma -mark Obj-C///////////////////////
+/////////////////////////////////////////////////////////////
+- (UITraitCollection *)traitCollection {
+    if (Is_IPad) {
+        if (self.view.bounds.size.width < self.view.bounds.size.height) {
+            return [UITraitCollection traitCollectionWithTraitsFromCollections:
+                @[[UITraitCollection traitCollectionWithHorizontalSizeClass:UIUserInterfaceSizeClassCompact],
+                [UITraitCollection traitCollectionWithVerticalSizeClass:UIUserInterfaceSizeClassRegular]]];
+        } else {
+            return [UITraitCollection traitCollectionWithTraitsFromCollections:
+                @[[UITraitCollection traitCollectionWithHorizontalSizeClass:UIUserInterfaceSizeClassRegular],
+                [UITraitCollection traitCollectionWithVerticalSizeClass:UIUserInterfaceSizeClassRegular]]];
+        }
+    }
+    else {
+        return [UITraitCollection traitCollectionWithTraitsFromCollections:
+            @[[UITraitCollection traitCollectionWithHorizontalSizeClass:UIUserInterfaceSizeClassCompact],
+            [UITraitCollection traitCollectionWithVerticalSizeClass:UIUserInterfaceSizeClassRegular]]];
+    }
+}
+*/
