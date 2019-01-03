@@ -8,3 +8,6 @@ For iPad Portrait
 -> Click vary for traits (Width)
 Select any device of type width(Compact) and Height(Regular)
 do setup and chk
+
+
+**Delete constraints before adding new constraints with VaryForTraits
